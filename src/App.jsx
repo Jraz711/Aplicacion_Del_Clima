@@ -4,7 +4,6 @@ import "./App.css";
 import Loading from "./components/Loading";
 import WeatherCard from "./components/WeatherCard";
 import getApiKey from "./utils/getApiKey";
-
 function App() {
   const [coords, setcoords] = useState();
   const [weather, setweather] = useState();
@@ -42,7 +41,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="app">
         {
           weather
             ? <WeatherCard
