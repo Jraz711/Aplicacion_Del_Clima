@@ -68,9 +68,19 @@
   background-color: cornflowerblue;
   color: rgb(255, 255, 255);
   font-size: 1rem;
+  transition: transform 100ms ease;
+  -webkit-transition: transform 100ms ease;
+  -moz-transition: transform 100ms ease;
+  -ms-transition: transform 100ms ease;
+  -o-transition: transform 100ms ease;
 }
 
 .weather_btn:hover {
   filter: brightness(1.5);
+  transform: scale(1.05);
   -webkit-filter: brightness(1.5);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
